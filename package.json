@@ -1,0 +1,24 @@
+{
+  "name": "rss-snapshot-tracker",
+  "version": "1.0.0",
+  "description": "本地 RSS 2.0 订阅快照与文章更新追踪后端（API + CLI）",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js serve",
+    "test": "tsx --test tests/*.test.ts",
+    "demo": "tsx src/cli.ts demo",
+    "cli": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>技术周刊</title>
+    <link>https://weekly.example.com/</link>
+    <description>本地演示订阅源快照 1</description>
+    <item>
+      <title>Rust 1.80 发布</title>
+      <guid>guid-rust-180</guid>
+      <link>https://weekly.example.com/rust-180</link>
+      <pubDate>Tue, 11 Feb 2025 10:00:00 GMT</pubDate>
+      <description>Rust 1.80 稳定版发布说明。</description>
+    </item>
+    <item>
+      <title>Node.js v22 新特性介召</title>
+      <guid>guid-node22</guid>
+      <link>https://weekly.example.com/node22</link>
+      <pubDate>Wed, 12 Feb 2025 08:30:00 GMT</pubDate>
+      <description>介绍 Node.js v22 的主要新特性。</description>
+    </item>
+    <item>
+      <title>无 GUID 文章 A</title>
+      <link>https://weekly.example.com/no-guid-a</link>
+      <pubDate>Thu, 13 Feb 2025 09:00:00 GMT</pubDate>
+      <description>这篇文章只有链接，靠链接稳定识别。</description>
+    </item>
+    <item>
+      <title>孤儿文章（无 GUID 也无链接）</title>
+      <pubDate>Fri, 14 Feb 2025 09:00:00 GMT</pubDate>
+      <description>该条目无法确定身份，应进入无效清单。</description>
+    </item>
+  </channel>
+</rss>
